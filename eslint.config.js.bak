@@ -1,0 +1,13 @@
+import js from '@eslint/js'
+import tseslint from 'typescript-eslint'
+
+export default await tseslint.config({
+  extends: [
+    js.configs.recommended,
+    ...tseslint.configs.recommended,
+  ],
+  rules: {
+    semi: ['error', 'never'],
+    'no-empty-function': 'error'
+  },
+})
