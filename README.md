@@ -29,4 +29,5 @@ docker run -e RUN_LOCAL=true -e VALIDATE_TYPESCRIPT_STANDARD=true -v .:/tmp/lint
 
 ```bash
 docker run -e RUN_LOCAL=true -e VALIDATE_TYPESCRIPT_STANDARD=false -v .:/tmp/lint github/super-linter:latest
+npx eslint . --config eslint.config.local.js --debug
 ```

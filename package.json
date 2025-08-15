@@ -1,6 +1,7 @@
 {
   "name": "super-linter-ts-trouble",
   "version": "0.1.0",
+  "type": "module",
   "bin": {
     "super-linter-ts-trouble": "bin/super-linter-ts-trouble.js"
   },
